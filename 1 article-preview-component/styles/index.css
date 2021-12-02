@@ -1,33 +1,69 @@
-
+@font-face{
+    font-family: "Manrope";
+    src: url("https://fonts.google.com/specimen/Manrope");
+}
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: "Manrope";
 }
 
 body{
-    border: solid;
+    background-color: #EDF2F8;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
 main {
-    border: solid #ff0000 5px;
+    background-color:white;
+    border-radius: 10px;
     display: flex;
-    height: 200px;
+    height: 300px;
 }
 
 aside.left{
-    border: solid green 2px;
     flex:1 1 40%;
-    padding: 10px;    
+    padding: 10px;  
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+    background-image: url("../images/drawers.jpg");
+    background-size: cover;
 }
 
 aside.rigth{
-    border: solid blue 2px;
+    
     flex: 1 1 60%;
     padding: 10px;
 }
+.compartir{
+    background-color: #F1F4F9;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto {
+    display:flex;
+    border: solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.perfil {
+    border: solid;
+    display:flex;
+}
+
+.perfil>img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+} 
