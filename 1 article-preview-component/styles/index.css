@@ -1,15 +1,14 @@
-@font-face{
-    font-family: "Manrope";
-    src: url("https://fonts.google.com/specimen/Manrope");
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     font-family: "Manrope";
+
 }
 
 body{
+    font-size: 13px;
     background-color: #EDF2F8;
     height: 100vh;
     display: flex;
@@ -37,13 +36,33 @@ aside.left{
 aside.rigth{
     
     flex: 1 1 60%;
-    padding: 10px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+
+}
+aside{
+    letter-spacing:1px ;
+}
+aside>h1{
+    font-size: 1.3rem;
+    
+}
+.color-font{
+    color: hsl(217, 19%, 35%)
+
+}
+aside>p, .nombre-contacto>p{
+    color:hsl(214, 17%, 51%)
+
 }
 .compartir{
     background-color: #F1F4F9;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,14 +71,17 @@ aside.rigth{
 
 .contacto {
     display:flex;
-    border: solid;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    align-items: flex-end;
+
+    
 }
 .perfil {
-    border: solid;
+
     display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding-top: 10px;
 }
 
 .perfil>img {
@@ -67,3 +89,7 @@ aside.rigth{
     height: 50px;
     width: 50px;
 } 
+
+.nombre-contacto{
+    padding-left: 20px;
+}

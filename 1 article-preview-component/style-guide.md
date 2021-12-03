@@ -22,9 +22,9 @@ The designs were created to the following widths:
 
 ### Headings
 
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Family: [Manrope]()
 - Weights: 500, 700
-
+https://fonts.google.com/specimen/Manrope
 ## Icons
 
 We provide SVGs for the social icons. But please feel free to use a font icon library if you like. Some suggestions can be found below:
