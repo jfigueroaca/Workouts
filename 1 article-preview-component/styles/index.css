@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20%;
+    align-items: center;
 }
 
 main {
@@ -22,15 +22,18 @@ main {
     border-radius: 10px;
     display: flex;
     height: 300px;
+    width: 700px;
 }
 
+
 aside.left{
-    flex:1 1 40%;
-    padding: 10px;  
+    flex:1 1 40%; 
     border-top-left-radius: 10px;  
     border-bottom-left-radius: 10px;
     background-image: url("../images/drawers.jpg");
-    background-size: cover;
+    background-size:cover;
+    min-width: 280px;
+
 }
 
 aside.rigth{
@@ -40,6 +43,10 @@ aside.rigth{
     display: flex;
     flex-direction:column;
     justify-content: space-around;
+    min-width: 420px;
+    position: relative;
+    z-index: 1;
+    
     
 
 }
@@ -48,14 +55,15 @@ aside{
 }
 aside>h1{
     font-size: 1.3rem;
+    margin-bottom: 5px;
     
 }
 .color-font{
-    color: hsl(217, 19%, 35%)
+    color: hsl(217, 19%, 35%);
 
 }
 aside>p, .nombre-contacto>p{
-    color:hsl(214, 17%, 51%)
+    color:hsl(214, 17%, 51%);
 
 }
 .compartir{
@@ -70,6 +78,7 @@ aside>p, .nombre-contacto>p{
 }
 
 .contacto {
+    padding-top: 10px;
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -93,3 +102,63 @@ aside>p, .nombre-contacto>p{
 .nombre-contacto{
     padding-left: 20px;
 }
+
+
+nav.compartir:hover {
+    background-color:  hsl(217, 19%, 35%);
+}
+.compartir-redes {
+    background-color:  hsl(217, 19%, 35%);
+    width: 250px;
+    height:auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    padding:20px 20px;
+
+}
+.icono-share{
+    border:none;
+    background-color:  hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    font-size: 0.9rem;
+    padding-right: 10px;
+    letter-spacing: 5px;
+}
+#ir-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+    left:300px;
+    z-index: 2;
+}
+
+@media screen and (max-width:375px) {
+
+    main {
+
+        flex-flow: column;
+        max-width: 350px;
+        height: 700px;
+        margin:50px 20px 50px 20px;
+            
+    }
+    aside.left{
+        
+        border-bottom-left-radius: 0px; 
+        border-top-right-radius: 10px;
+        height:200px;
+        width: 350px;
+       
+        
+    }
+    
+    aside.rigth{
+    
+        padding: 40px 30px;
+        min-width: 350px;  }
+        
+}  
