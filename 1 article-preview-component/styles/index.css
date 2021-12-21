@@ -132,7 +132,7 @@ nav.compartir:hover {
     align-items: center;
     position: relative;
     bottom: 150px;
-    left:300px;
+    left:295px;
     z-index: 2;
 }
 
@@ -159,6 +159,10 @@ nav.compartir:hover {
     aside.rigth{
     
         padding: 40px 30px;
-        min-width: 350px;  }
-        
+        min-width: 350px;  
+
+    }
+   .perfil{
+       display:none;
+   }     
 }  
