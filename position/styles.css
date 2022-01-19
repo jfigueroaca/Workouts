@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+.contenedor {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.titulo {
+    border: solid honeydew;
+      background-color: lightcoral;
+      color:honeydew;
+      width: 250px;
+      padding: 20px 10px;
+      border-radius: 10px;
+      position: relative;
+      top: 30px;
+      text-align: center;
+
+}
+
+.contenido {
+    border:solid;
+    background-color: grey;
+    color:ivory;
+    width: 500px;
+    height:300px;
+    padding: 60px 40px;
+    border-radius:10px;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
