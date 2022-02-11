@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #contenedor{
+            border: solid;
+            position: relative;
+            margin: 100px;
+        }
+
+        .pos{
+            border: solid;
+            width: 50px;
+            height: 50px;
+        }
+        .uno{
+            background-color: red;
+        }
+
+        .dos{
+            background-color: green;
+            position: absolute;
+            right: 0;
+            top:0;
+        }
+        .tres{
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div class="pos uno">1</div>
+        <div class="pos dos">2</div>
+        <div class="pos tres">3</div>
+    </div>
+</body>
+</html>
