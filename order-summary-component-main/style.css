@@ -1,0 +1,148 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Red Hat Display", Outfit;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size:100% 44%;
+  background-color: var(--Pale-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+  width: 320px;
+  height: auto;
+  background-color: var(--Very-pale-blue);
+  border-radius: 18px; 
+}
+
+.contain{
+  padding:30px 25px 20px 25px;
+}
+.image-summary {
+  width: 100%;
+  height: 150px;
+  background-image: url("./images/illustration-hero.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+.article-text {
+  text-align: center;
+  line-height: 2.3rem;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.text-title {
+  color: var(--Dark-blue);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.text-paragraph {
+  color: var(--Desaturated-blue);
+  margin-top: 15px;
+  font-size: 1.4rem;
+
+}
+
+.card-price {
+  background-color:hsl(225, 100%, 97%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px 0;
+  margin: 20px 0;
+}
+
+.icon-music-annual {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.price-annual {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.price-annual h4{
+    font-weight: 900;
+}
+
+.price-annual p {
+  color: var(--Desaturated-blue);
+}
+
+.price-annual a{
+    color: var(--Bright-blue);
+}
+
+.buttoms {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttom-payment {
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+  font-weight: 700;
+  width: 98%;
+  height: 48px;
+  border-radius: 10px;
+  box-shadow: 0px 16px 10px 0px hsl(245, 75%, 90%);
+  border: none;
+  letter-spacing: 0.3px;
+}
+
+.buttom-order {
+  background-color: var(--Very-pale-blue);
+  color: var(--Desaturated-blue);
+  font-weight: 900;
+  border: none;
+  padding-bottom: 10px;
+}
+.card-price a:hover{
+  color:hsl(245, 75%, 52%);
+  cursor:pointer;
+}
+
+.buttom-payment:hover{
+  background-color:  hsl(245, 75%, 70%);
+  cursor: pointer;
+}
+
+.buttom-order:hover{
+  color:var(--Dark-blue);
+  cursor: pointer;
+}
