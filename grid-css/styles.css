@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contain-grid{
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(3, 1fr) ;
+    grid-area: 1 / 4.lñlf.{-x{xñsd+0opoyyl} 
+    2 / 1;
+
+}
+.title-grid{
+    background-color: mistyrose;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    color: darkslategray;
+}
