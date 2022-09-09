@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="sign-up.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
    
     <title>Sign Up</title>
 </head>
 <body>
     <main>
-        <div>
-           <img src="./logos/logo_yard_sale.svg" alt="" srcset=""> 
-            
-            <form action="">
-                <label for="email">Email address</label>
-                <input type="email" name="email" id="email" placeholder="platzi@example.com">
-
-                <label for="password"> Password</label>
-                <input type="password" name="password" id="password" placeholder="xxxxxxxxx">
-            
-                <button type="submit">Login in</button>
+        <div class="card-sign-Up">
+           <img class="image-logo" src="./logos/logo_yard_sale.svg" alt="" srcset=""> 
+           
+           <div class="contain-form">
+           <form class="form-email" action="">
+               <label  for="email">Email address</label>
+               <input class="email" type="email" name="email" id="email" placeholder="platzi@example.com">
+               
+               <label for="password"> Password</label>
+               <input class="password" type="password" name="password" id="password" placeholder="********">
+               
+               <button class="button-login" type="submit">Login in</button>
             </form>
-            <div>
+            <div class="contain-button-sign-up">
                 <p>Forgot my password</p>
-                <button type="submit">Sign up</button>
+                <button class="button-sign-up"   type="submit">Sign up</button>
             </div>
+            </div> 
         </div>
     </main>
 </body>
