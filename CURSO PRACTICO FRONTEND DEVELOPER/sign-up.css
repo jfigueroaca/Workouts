@@ -7,15 +7,11 @@
     
 }
 
-.contain-logo {
-    text-align: center;
-
-}
 
 .image-logo {
     width: 150px;
     margin: 10px 0;  
-      
+    display: none;      
 }
 .contain-form {
     width: 100%;
