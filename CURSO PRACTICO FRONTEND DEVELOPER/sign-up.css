@@ -1,0 +1,74 @@
+.card-sign-Up {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.image-logo {
+    width: 150px;
+    margin: 10px 0;  
+    display: none;      
+}
+.contain-form {
+    width: 100%;
+    margin-top: 30px;
+
+}
+.form-email {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+.email,.password {
+    background-color:  var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 6px 12px 6px;
+    margin: 4px 0 20px 0;
+    font-size: medium;
+}
+
+.button-login {
+
+    background-color: var(--hospital-green);
+    color: var(--white);
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 0;
+    margin: 6px 0 30px 0;
+}
+
+.contain-button-sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contain-button-sign-up p {
+    color: var(--hospital-green);
+    font-size: small;
+    font-weight:500px;
+
+
+}
+
+.button-sign-up {
+    background-color: var(--white);
+    color: var(--hospital-green);
+    border: solid 1px var(--hospital-green);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: bold;
+}

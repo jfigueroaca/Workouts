@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="login.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
     <main>
-        <div>
-            <div>
-                <img src="./logos/logo_yard_sale.svg" alt="" srcset="">
-                <h1>Email has been sent!</h1>
-                <p>Please check your inbox for instructions on how to reset the password</p>
+        <div class="card-login">
+            <div class="contain-logo">
+                <img class="image-logo" src="./logos/logo_yard_sale.svg" alt="" srcset="">
+                <h1 class="title">Email has been sent!</h1>
+                <p class="subtitle">Please check your inbox for instructions on how to reset the password</p>
             </div>
 
-            <div>
-                <img src="./icons/email.svg" alt="" srcset="">
+            <div class="contain-email">
+                <img  class="image-email" src="./icons/email.svg" alt="" srcset="">
             </div>
-
-            <div>
-                <input type="submit" value="Login">
-                <p>Didn't receive the email?</p>
-                <span>Resend</span>
+            <button class="login-buttom" type="submit">Login</button>
+            <div class="receive-mail">
+                <p class="receive">Didn't receive the email?</p>
+                <span class="resend"> <a href="http://">Resend</a> </span>
             </div>
         </div>
     </main>
