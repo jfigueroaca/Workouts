@@ -1,0 +1,125 @@
+:root {
+
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items:end;
+    
+}
+
+
+
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.image-close {
+    background-color: var(--white);
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px 0 0 30px;
+}
+
+.list-product {
+    width: 340px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 40%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--very-light-pink);
+   font-size: medium;
+   margin-right: 40px;
+
+}
+
+.price-product {
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--black);
+   font-size: medium;
+   font-weight: bold;
+   margin-right: 40px;
+
+}
+
+.price-product img {
+    width: 20px;
+    height: 20px;
+}
+
+.price-total {
+    width: 340px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text-input-field);
+    margin-top: 30px ;
+    border: none;
+    border-radius: 8px;
+    color:var(--black);
+    font-size: medium;
+    font-weight: bold;
+    padding: 14px 20px;
+}
+
+.button-checkout {
+    width: 340px;
+    height: auto;
+    background-color: var(--hospital-green);
+    margin-top: 20px ;
+    border: none;
+    border-radius: 8px;
+    color:var(--white);
+    font-size: medium;
+    font-weight: bold;
+    padding: 14px;
+    background-image: url("")
+}
+
+@import url();
+background-image:

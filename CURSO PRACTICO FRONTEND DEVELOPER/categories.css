@@ -1,0 +1,88 @@
+:root {
+
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.card-menu {
+    width: 100%;
+    height: auto;
+    margin: 50px 30px 30px 30px;
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: solid 1px var(--very-light-pink);
+    
+}
+
+.title {
+    font-size: medium;
+    margin: 20px 0;
+
+}
+
+.list-menu,
+.list-submenu {
+
+    list-style: none;
+}
+
+.card-submenu{
+    width: 100%;
+    height: auto;
+    font-size: medium;
+    font-weight: bold;
+    margin:0 30px;
+    
+}
+
+.list-menu li, 
+.list-submenu li {
+    padding-bottom: 24px;
+   
+}
+.list-menu a,
+.list-submenu a {
+    text-decoration: none;
+    color: var(--black);
+    
+ }
+
+.mail a {
+    color: var(--very-light-pink);
+    font-size: small;
+    font-weight: normal;
+}
+
+li:last-child a {
+    color: var(--hospital-green);
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+
